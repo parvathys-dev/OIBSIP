@@ -108,3 +108,10 @@ button:hover{
 .destination-card:hover{
     transform: translateY(-10px);
 }
+.footer{
+    background-color: #3b2420;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    border-top: 1px solid;
+}
