@@ -1,1 +1,110 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    padding: 20px 40px;
+    background-color: #3b2420;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+h2{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+a:hover{
+    color: #D4A373;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    gap: 15px;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: url("images/travel.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+.hero h1{
+    font-size: 60px;
+}
+.hero p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+button{
+    border-radius: 8px;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #D4A373;
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #c18c5d;
+}
+.destinations{
+    padding: 20px 20px;
+    background-color: #FAF7F2;
+    text-align:center;
+}
+.destinations h2{
+    color: #3b2420;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.destinations p{
+    color: #3b2420;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.destination-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+.destination-container p{
+    color: #4E342E;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.destination-container h3{
+    color: #3b2420;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.destination-card{
+    width:300px;
+    border-radius:20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow:hidden;
+    background-color:#FFFDFB;
+    padding-bottom: 5px;
+    transition: 0.3s;
+}
+.destination-card img{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+.destination-card:hover{
+    transform: translateY(-10px);
+}
