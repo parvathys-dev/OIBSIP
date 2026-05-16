@@ -115,3 +115,60 @@ button:hover{
     color: white;
     border-top: 1px solid;
 }
+@media screen and (max-width: 768px){
+
+    .navbar{
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero{
+        padding: 20px;
+        height: 80vh;
+    }
+
+    .hero h1{
+        font-size: 40px;
+    }
+
+    .hero p{
+        font-size: 16px;
+    }
+
+    button{
+        padding: 10px 16px;
+    }
+
+    .destinations{
+        padding: 50px 20px;
+    }
+
+    .destinations h2{
+        font-size: 35px;
+    }
+
+    .destination-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .destination-card{
+        width: 90%;
+    }
+
+    .destination-card img{
+        height: 220px;
+    }
+
+    .footer{
+        text-align: center;
+        padding: 20px;
+    }
+}
